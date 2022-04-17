@@ -1,0 +1,3 @@
+USE sql_coderhouse_narvaja_santiago;
+SELECT id_cliente , donde_compra(id_cliente) AS sucursales
+FROM sql_coderhouse_narvaja_santiago.perfil_clientes;
